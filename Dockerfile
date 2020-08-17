@@ -2,8 +2,7 @@
 FROM node:alpine
 
 # Import local files
-COPY package.json ./
-COPY index.js ./
+COPY ./ ./
 
 # Install dependencies
 RUN npm install
